@@ -1,0 +1,24 @@
+.contact{
+    text-align: center;
+    padding: 50px ;
+
+}
+
+
+.contact h1{
+    margin-bottom: 60px ;
+    font-size: 50px ;
+}
+
+.contact button{
+    align-self: self-start;
+    margin: 40px ;
+    background-color: var(--primary);
+    border: none;
+   
+    font-size: 20px ;
+}
+.contact button:hover{
+    background-color: var(--primary);
+
+}

@@ -1,0 +1,35 @@
+:root{
+    --sec:#2c3e50;
+    --primary:#1abc9c;
+}
+
+.navbar{
+    background-color: var(--sec);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.navbar-brand,
+.nav-link{
+    color: white;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link:hover{
+    color: var(--primary);
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    gap: 15px;
+   
+}
+.nav-link{
+    padding: 15px;
+}

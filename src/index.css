@@ -1,0 +1,109 @@
+:root{
+    --main-color:#2c3e50;
+    --sec-color:#1abc9c;
+ }
+ 
+ .navbar{
+    background-color: var(--main-color);
+    position: sticky !important;
+    top: 0;
+    right: 0;
+ }
+ 
+ 
+ .navbar-brand,
+ .nav-link
+ {
+    color: white !important;
+    font-weight: 700 !important;
+ }
+ 
+ 
+ .nav-link:hover{
+    color: var(--sec-color) !important;
+ }
+ .section-1{
+    background-color: var(--sec-color);
+ }
+ .section-1 img{
+    width: 15rem;
+ }
+ 
+ .section-1 h1{
+    font-size: 4rem !important;
+    text-transform: uppercase !important;
+    font-weight: 700;
+    margin: 40px ;
+ 
+ }
+ 
+ .section-1 .container{
+    height: 100vh ;
+ 
+ 
+ }
+ .section-1 p{
+    color: white;
+ }
+ .cut{
+    font-weight: 900;
+    font-size: 60px !important;
+ }
+ .img-card{
+    position: relative;
+ }
+ 
+ .plus-icon{
+    background-color: var(--sec-color);
+    position: absolute;
+    top: 0px;
+    margin: auto;
+    width: 93.7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px ;
+    font-weight: 900;
+    border-radius: 6px;
+    opacity: 0;
+    transition: 400ms;
+ }
+ 
+ .plus-icon:hover{
+    opacity: 1;
+ }
+ 
+ .section-2 .container,
+ .section-3 .container
+ {
+    padding: 96px 0px ;
+ }
+ .section-2 .headder,
+ .header{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .header{
+    color: white;
+ }
+ 
+ .section-3{
+    background-color: var(--sec-color);
+ 
+ }
+ 
+ .par{
+    color: white;
+    font-size: 20px ;
+ 
+ }
+ 
+ .section-3 .btn{
+ width: fit-content;
+ padding:1rem 1.75rem;
+ font-size: 24px;
+ font-weight: 600;
+ }

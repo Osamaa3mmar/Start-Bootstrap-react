@@ -1,0 +1,20 @@
+.star
+{
+    color: white;
+    font-size: 50px;
+}
+.cut-padding{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.line{
+    height: 10px;
+    width: 20%;
+    background-color: white;
+    margin: 20px;
+    
+}
