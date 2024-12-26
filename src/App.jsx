@@ -7,14 +7,17 @@ import Section3 from './Component/Section-three/Section3'
 import './index.css'
 import Footer from './Component/Footer/Footer'
 import Contact from './Component/Contact Me/Contact'
+import { Route, Routes } from 'react-router-dom'
 export default function App() {
   return (
     <div>
       <Navbar/>
       <Section1/>
-      <Section2/>
-      <Section3/>
-      <Contact/>
+      <Routes>
+        <Route path='/portfolio' element={<Section2/>}></Route>
+        <Route path='/about' element={<Section3/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
+      </Routes>
       <Footer/>
     </div>
   )
